@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/anucha-tk/go_basic_webapp/pkg/config"
-	"github.com/anucha-tk/go_basic_webapp/pkg/handlers"
-	"github.com/anucha-tk/go_basic_webapp/pkg/render"
+	"github.com/anucha-tk/go_booking/pkg/config"
+	"github.com/anucha-tk/go_booking/pkg/handlers"
+	"github.com/anucha-tk/go_booking/pkg/render"
 )
 
 var (

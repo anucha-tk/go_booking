@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/anucha-tk/go_basic_webapp/pkg/config"
-	"github.com/anucha-tk/go_basic_webapp/pkg/models"
+	"github.com/anucha-tk/go_booking/pkg/config"
+	"github.com/anucha-tk/go_booking/pkg/models"
 )
 
 var app *config.AppConfig

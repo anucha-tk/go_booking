@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/anucha-tk/go_basic_webapp/pkg/handlers"
+	"github.com/anucha-tk/go_booking/pkg/handlers"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/anucha-tk/go_basic_webapp/pkg/config"
-	"github.com/anucha-tk/go_basic_webapp/pkg/models"
-	"github.com/anucha-tk/go_basic_webapp/pkg/render"
+	"github.com/anucha-tk/go_booking/pkg/config"
+	"github.com/anucha-tk/go_booking/pkg/models"
+	"github.com/anucha-tk/go_booking/pkg/render"
 )
 
 var Repo *Repository
