@@ -1,0 +1,19 @@
+{{define "navbar"}}
+<nav class="flex h-20 bg-cyan-800 justify-center items-center">
+  <ul class="flex text-white text-xl justify-center gap-4 items-center">
+    <li>
+      <a href="/" hx-get="/" hx-target="#content" hx-push-url="true">Home</a>
+    </li>
+    <li>
+      <a href="/about" hx-get="/about" hx-target="#content" hx-push-url="true"
+        >About</a
+      >
+    </li>
+    <li>
+      <a href="/time" hx-get="/time" hx-target="#content" hx-push-url="true"
+        >Time</a
+      >
+    </li>
+  </ul>
+</nav>
+{{end}}

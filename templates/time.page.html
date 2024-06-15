@@ -1,0 +1,13 @@
+{{template "base" .}} {{define "content"}}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Time Page</h1>
+      <h2>Update tine every 5 sec</h2>
+      <p hx-get="/getTime" hx-trigger="load, every 5s" hx-target="#time">
+        Current time: <span id="time"></span>
+      </p>
+    </div>
+  </div>
+</div>
+{{end}}
